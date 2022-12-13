@@ -5,3 +5,5 @@ The website is fully responsive and therefore can be used on multiple devices.
 
 The website also encoporates the use of CDN to make it more interactive.
 Material Icons is used for all the icons on the webpage.
+
+Most of the javascript used is embedded with script tags.
