@@ -149,69 +149,7 @@
 				<img src="image2.jpeg" class="mainpic">
 
 			</div>
-			<div ng-app="">
-  <p>Name: <input type="text" ng-model="name"></p>
-  <p ng-bind="name"></p>
-			</div>
-
-
-			<div data-ng-app="" data-ng-init="firstName='John'">
-
-<p>The name is <span data-ng-bind="firstName"></span></p>
-
-</div>
-
-<div ng-app="myApp" ng-controller="myCtrl">
-
-<button ng-click="count = count + 1">Click me!</button>
-
-<p>{{ count }}</p>
-
-</div>
-<script>
-var app = angular.module('myApp', []);
-app.controller('myCtrl', function($scope) {
-  $scope.count = 5;
-});
-</script>
-
-<div ng-app="myApp" ng-controller="namesCtrl">
-
-<table border="1" width="100%">
-  <tr>
-    <th ng-click="orderByMe('name')">Name</th>
-    <th ng-click="orderByMe('country')">Country</th>
-  </tr>
-  <tr ng-repeat="x in names | orderBy:myOrderBy">
-    <td>{{x.name}}</td>
-    <td>{{x.country}}</td>
-  </tr>
-</table>
-
-</div>
-
-<script>
-angular.module('myApp', []).controller('namesCtrl', function($scope) {
-  $scope.names = [
-    {name:'Jani',country:'Norway'},
-    {name:'Carl',country:'Sweden'},
-    {name:'Margareth',country:'England'},
-    {name:'Hege',country:'Norway'},
-    {name:'Joe',country:'Denmark'},
-    {name:'Gustav',country:'Sweden'},
-    {name:'Birgit',country:'Denmark'},
-    {name:'Mary',country:'England'},
-    {name:'Kai',country:'Norway'}
-  ];
-  $scope.orderByMe = function(x) {
-    $scope.myOrderBy = x;
-  }
-});
-</script>
-
-
-
-		</div>
+			
 		</main>
 
 	
