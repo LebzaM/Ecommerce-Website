@@ -10,10 +10,12 @@ Most of the javascript used is embedded within script tags.
 
 # Usage
 
-![image](https://user-images.githubusercontent.com/120285761/209975579-d08d4a2a-31ad-49ee-bb0d-6b944aed8063.png)
+![EC1](https://user-images.githubusercontent.com/120285761/210052259-ce76d3f5-30c0-4bab-9f2f-0d455c561b3f.png)
+
 
 # Responsive
-![image](https://user-images.githubusercontent.com/120285761/209976066-58caaf7f-b839-4265-bf0b-3347121334e3.png)
+![EC2](https://user-images.githubusercontent.com/120285761/210052285-f6b455ab-3c35-4df9-a82f-c2c6daaf54e7.png)
+
 
 
 
